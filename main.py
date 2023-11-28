@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for, redirect, flash, get_flashed_messages
 from forms import RegistrationForm, LoginForm
-import bcrypt
+# import bcrypt
 
 app = Flask(__name__)
 app.secret_key = '4f057ce657d242729e1dd9ce096f6973'
@@ -14,8 +14,8 @@ posts = [
     }
 ]
 
-password = "user_password"
-hashed_password = bcrypt.hashpw(password.encode('utf-8'),bcrypt.gensalt())
+# password = "user_password"
+# hashed_password = bcrypt.hashpw(password.encode('utf-8'),bcrypt.gensalt())
 @app.route("/")
 @app.route("/home", methods=['GET', 'POST'])
 def home():
