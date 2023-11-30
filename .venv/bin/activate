@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/nuke_waste/TrainDB/.venv"
+VIRTUAL_ENV="/Users/nayyirmostafa/Desktop/TrainDB/.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

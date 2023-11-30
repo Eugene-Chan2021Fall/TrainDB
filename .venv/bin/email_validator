@@ -1,4 +1,4 @@
-#!/home/nuke_waste/TrainDB/.venv/bin/python3
+#!/Users/nayyirmostafa/Desktop/TrainDB/.venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
